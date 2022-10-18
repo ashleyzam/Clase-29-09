@@ -43,14 +43,16 @@ nav ul li a {
   width: 280px;
   height: 380px;
   margin: 10px;
+  object-fit: cover;
   box-shadow: 2px 2px 15px 2px rgb(80, 1, 38);
 }
 
 footer {
   text-align: center;
-  font-size: 1.5em;
-  background-color: rgb(241, 230, 125);
+  font-size: 2em;
+  background-color: rgb(212, 131, 144);
   padding: 40px 10px;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
